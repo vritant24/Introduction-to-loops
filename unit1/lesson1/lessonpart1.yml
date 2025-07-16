@@ -1,0 +1,87 @@
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
+id: lessonpart1
+title: Loops
+content: >
+  ## Introduction to Loops
+
+
+  Loops are a fundamental concept in programming that allow us to execute a
+  block of code multiple times. In Python, there are two main types of loops:
+  `for` loops and `while` loops. This lesson will introduce you to these loops
+  and how to use them effectively.
+
+
+  ### For Loops
+
+
+  A `for` loop is used to iterate over a sequence (such as a list, tuple, or
+  string) and execute a block of code for each item in the sequence. Here's a
+  basic example:
+
+
+  ```python
+
+  fruits = ["apple", "banana", "cherry"]
+
+  for fruit in fruits:
+      print(fruit)
+  ```
+
+
+  In this example, the loop will print each fruit in the list.
+
+
+  ### While Loops
+
+
+  A `while` loop continues to execute a block of code as long as a specified
+  condition is true. Here's an example:
+
+
+  ```python
+
+  count = 0
+
+  while count < 5:
+      print("Count is:", count)
+      count += 1
+  ```
+
+
+  This loop will print the value of `count` from 0 to 4.
+
+
+  ### Practice Exercise
+
+
+  Try writing a `for` loop that prints the numbers 1 to 10. Then, write a
+  `while` loop that does the same. Consider what happens if you change the
+  condition in the `while` loop to `count <= 10`.
+
+
+  ### Summary
+
+
+  Loops are powerful tools that help automate repetitive tasks. Understanding
+  how to use `for` and `while` loops will greatly enhance your ability to write
+  efficient code. In the next lesson, we will explore more advanced loop
+  techniques and common pitfalls to avoid.
+questionGroups:
+  - id: "1"
+    questions:
+      - id: "1"
+        type: multiple
+        content: Which type of loop in Python is used to iterate over a sequence and
+          execute a block of code for each item in the sequence?
+        options:
+          - id: "1"
+            value: For loop
+            explanation: A for loop is used to iterate over a sequence.
+            isCorrect: true
+          - id: "2"
+            value: While loop
+            explanation: A while loop continues as long as a condition is true, not
+              specifically for iterating over sequences.
+          - id: "3"
+            value: Do-while loop
+            explanation: Python does not have a do-while loop.
